@@ -11,8 +11,14 @@ header {
     justify-content: space-between;
 }
 
-body {
+.imgContainer {
+   display: flex;
    flex-direction: row;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
 }
 
 ul {
@@ -20,19 +26,17 @@ ul {
     justify-content: space-between;
     
 }       
-ol {
-    list-style: none;
+.titleContainer {
+    display: flex;
+    flex-direction: column;
 }
-
-
 
 img {
     padding: 12px;
     background-color: rgb(43, 10, 71);
-    max-width: 768px;
-    max-height: 768px;
-    display: flex;
-    
+    display: flex;   
+    width: 620px;
+    height: 500px;
 }
 
   footer {
@@ -40,6 +44,4 @@ img {
     height: 100px;
     background-color: rgb(93, 52, 207);
     display: flex;
-
-
   }
