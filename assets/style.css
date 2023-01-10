@@ -9,14 +9,38 @@ header {
     background-color: rgb(93, 52, 207);
     display: flex;
     justify-content: space-between;
+    padding: 0%;
+    
+    
 }
+
 
 .imgContainer {
    display: flex;
    flex-direction: row;
+   justify-content: space-evenly
+}
+
+.greyAbout {
+    
+    background-color: grey;
+    top: 55cm;
+   padding: 1%;
+  
+}
+
+h2 {
+   font-size: 300%;
+}
+
+p {
+    size: 100%;
+    
+    font-size: larger;
 }
 
 section {
+    margin-top: 1%;
     display: flex;
     flex-direction: column;
 }
@@ -24,24 +48,50 @@ section {
 ul {
     list-style: none;
     justify-content: space-between;
-    
+    display: inline;
+    color: white;
 }       
+
+a {
+    color: white;
+}
+
 .titleContainer {
     display: flex;
     flex-direction: column;
+    list-style: none;
+
 }
 
 img {
     padding: 12px;
     background-color: rgb(43, 10, 71);
     display: flex;   
-    width: 620px;
+    width: 768px;
     height: 500px;
+
 }
 
   footer {
     width: 100%;
     height: 100px;
     background-color: rgb(93, 52, 207);
-    display: flex;
+
   }
+
+  @media screen and (max-width: 768px) {
+    img {
+        width: 400px;
+        height: 250px;
+    }
+  }
+
+  h4 {
+    font-size: 200%;
+    display: inline;
+   }
+
+   footer ul {
+    font-size: 140%;
+    display: inline;
+   }
