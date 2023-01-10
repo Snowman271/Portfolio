@@ -50,10 +50,20 @@ ul {
     justify-content: space-between;
     display: inline;
     color: white;
-}       
+}     
+
+section li a {
+    color: black;
+    font-size: 200%;
+    text-decoration: none;
+}
 
 a {
     color: white;
+}
+
+a:hover {
+    color: rgb(148, 26, 26);
 }
 
 .titleContainer {
