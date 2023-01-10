@@ -11,8 +11,6 @@ header {
     justify-content: space-between;
     padding: 0%;
     margin: 0%;
-    
-    
 }
 
 
@@ -55,10 +53,14 @@ ul {
 }     
 
 section li a {
-    color: black;
-    font-size: 200%;
+    color: white;
+    
+    font-size: 300%;
     text-decoration: none;
-    text-align: end;
+    background-color: rgb(48, 8, 83);
+    position: relative;
+    left: 12px;
+    top: -55px;
 }
 
 a {
@@ -67,9 +69,18 @@ a {
     padding-top: 3%;
 }
 
-a:hover {
+footer a:hover {
     color: rgb(148, 26, 26);
 }
+
+header a:hover {
+    color: rgb(148, 26, 26);
+}
+
+section a:hover {
+    color: rgb(223, 255, 40);
+}
+
 
 .titleContainer {
     display: flex;
@@ -80,7 +91,7 @@ a:hover {
 
 img {
     padding: 12px;
-    background-color: rgb(43, 10, 71);
+    background-color: rgb(48, 8, 83);
     display: flex;   
     width: 768px;
     height: 500px;
