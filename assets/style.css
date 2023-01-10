@@ -63,7 +63,8 @@ section li a {
 
 a {
     color: white;
-    
+    padding-right: 1%;
+    padding-top: 3%;
 }
 
 a:hover {
